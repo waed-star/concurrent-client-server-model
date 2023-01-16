@@ -14,13 +14,13 @@ network:
   
   3. a central server machine that provides (also via a GUI):
   
-  a. services for new weather stations to connect automatically on power-
-    up and upload its data;
+      a. services for new weather stations to connect automatically on power-
+      up and upload its data;
     
-  b. services for new workstations to connect on log in (regulated by a user
-    database), and, after successful connection, obtain an up-to-date
-    description of the field and a list of connected weather stations, and
-    download their respective data on request.
+      b. services for new workstations to connect on log in (regulated by a user
+      database), and, after successful connection, obtain an up-to-date
+      description of the field and a list of connected weather stations, and
+      download their respective data on request.
     
 You will need to devise a Java-based concurrent client-server model to
 implement this system
